@@ -7,14 +7,12 @@
   <meta name="description" content="ĒTHER. Bottled air from 4,200m above the world. One product. One source. One story." />
   <meta property="og:title" content="ĒTHER — Collected at 4,200m" />
   <meta property="og:description" content="The air the gods breathed. Sealed in glass. Yours." />
-  <meta property="og:image" content="assets/product.jpeg" />
+  <meta property="og:image" content="assets/img-monolith.jpg" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
 
-  <!-- GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
@@ -34,7 +32,7 @@
     <a href="#drop" class="nav-cta">Reserve</a>
   </nav>
 
-  <!-- HERO -->
+  <!-- ① HERO — text-only cinematic -->
   <section id="hero">
     <div class="hero-bg-rays"></div>
     <div class="hero-content">
@@ -50,10 +48,10 @@
     </div>
   </section>
 
-  <!-- PRODUCT REVEAL -->
+  <!-- ② PRODUCT REVEAL — real photo -->
   <section id="product-reveal">
     <div class="product-image-wrap">
-      <img src="assets/product.jpeg" alt="ĒTHER — Bottled Air" class="product-img" />
+      <img src="assets/product.jpeg" alt="ĒTHER — Original Bottle" class="product-img" />
       <div class="product-glow"></div>
     </div>
     <div class="product-desc">
@@ -63,48 +61,117 @@
     </div>
   </section>
 
-  <!-- ORIGIN -->
+  <!-- ③ MONOLITH FULL — dramatic studio shot -->
+  <section id="monolith-full">
+    <img src="assets/img-monolith.jpg" alt="ĒTHER — The Monolith" class="full-bleed-img" loading="lazy" />
+    <div class="monolith-caption">
+      <span>Borosilicate glass · CNC aluminum · Laser-etched</span>
+    </div>
+  </section>
+
+  <!-- ④ ALPINE ORIGIN — full-width landscape -->
   <section id="origin">
-    <div class="origin-bg"></div>
-    <div class="origin-content">
-      <div class="origin-altitude">
-        <span class="altitude-number">4,200</span>
-        <span class="altitude-unit">m</span>
+    <div class="origin-bg-img">
+      <img src="assets/img-alpine.jpg" alt="4,200m — Shangri-La, Yunnan" class="origin-img" loading="lazy" />
+    </div>
+    <div class="origin-overlay">
+      <div class="origin-content">
+        <div class="origin-altitude">
+          <span class="altitude-number">4,200</span>
+          <span class="altitude-unit">m</span>
+        </div>
+        <div class="origin-divider"></div>
+        <p class="origin-location">Shangri-La &nbsp;·&nbsp; Yunnan Province &nbsp;·&nbsp; China</p>
+        <p class="origin-desc">Where the atmosphere thins and the air becomes something worth owning. Each bottle is collected at dawn, when the air is coldest and clearest. Sealed on-site. Never touched again.</p>
       </div>
-      <div class="origin-divider"></div>
-      <p class="origin-location">Shangri-La &nbsp;·&nbsp; Yunnan Province &nbsp;·&nbsp; China</p>
-      <p class="origin-desc">Where the atmosphere thins and the air becomes something worth owning. Each bottle is collected at dawn, when the air is coldest and clearest. Sealed on-site. Never touched again.</p>
     </div>
   </section>
 
-  <!-- THE OBJECT -->
+  <!-- ⑤ PACKAGING STORY — flatlay + box diptych -->
+  <section id="packaging">
+    <div class="packaging-header">
+      <p class="section-label">002 — The Packaging</p>
+      <h2 class="packaging-title">Designed to be<br/><em>opened once.</em></h2>
+    </div>
+    <div class="packaging-diptych">
+      <div class="diptych-left reveal-img">
+        <img src="assets/img-flatlay.jpg" alt="ĒTHER — Unboxing flatlay" loading="lazy" />
+        <p class="diptych-caption">The unboxing. Matte black. Foam. Cotton card.</p>
+      </div>
+      <div class="diptych-right reveal-img">
+        <img src="assets/img-box.jpg" alt="ĒTHER — The box" loading="lazy" />
+        <p class="diptych-caption">The box. Closed. Waiting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ THE OBJECT — specs + shelf visual -->
   <section id="the-object">
-    <div class="object-header">
-      <p class="section-label">002 — The Object</p>
-      <h2 class="object-title">Designed to belong<br/><em>next to Aesop.</em></h2>
-    </div>
-    <div class="specs-grid">
-      <div class="spec-card">
-        <div class="spec-number">01</div>
-        <h3 class="spec-name">Borosilicate Glass</h3>
-        <p class="spec-desc">Lab-grade. 200mm × 45mm. Stands upright like a monolith. No label. "ĒTHER" laser-etched vertically into the glass, 8mm tall.</p>
+    <div class="object-inner">
+      <div class="object-header">
+        <p class="section-label">003 — The Object</p>
+        <h2 class="object-title">Designed to belong<br/><em>next to Aesop.</em></h2>
       </div>
-      <div class="spec-card">
-        <div class="spec-number">02</div>
-        <h3 class="spec-name">CNC Aluminum Cap</h3>
-        <p class="spec-desc">Matte black. Machined, not stamped. The hiss of the seal breaking is not packaging — it is the product experience itself.</p>
+      <div class="specs-grid">
+        <div class="spec-card">
+          <div class="spec-number">01</div>
+          <h3 class="spec-name">Borosilicate Glass</h3>
+          <p class="spec-desc">Lab-grade. 200mm × 45mm. Stands upright like a monolith. No label. "ĒTHER" laser-etched vertically into the glass, 8mm tall.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-number">02</div>
+          <h3 class="spec-name">CNC Aluminum Cap</h3>
+          <p class="spec-desc">Matte black. Machined, not stamped. The hiss of the seal breaking is not packaging — it is the product experience itself.</p>
+        </div>
+        <div class="spec-card">
+          <div class="spec-number">03</div>
+          <h3 class="spec-name">The Box</h3>
+          <p class="spec-desc">Matte black. Soft-touch. Opens like a book. Left: bottle in white die-cut foam. Right: one heavy cotton card reading "Collected at 4,200m, Shangri-La, Yunnan."</p>
+        </div>
       </div>
-      <div class="spec-card">
-        <div class="spec-number">03</div>
-        <h3 class="spec-name">The Box</h3>
-        <p class="spec-desc">Matte black. Soft-touch. Opens like a book. Left: bottle in white die-cut foam. Right: one heavy cotton card reading "Collected at 4,200m, Shangri-La, Yunnan."</p>
+      <div class="shelf-image reveal-img">
+        <img src="assets/img-shelf.jpg" alt="ĒTHER — Shelf styling" loading="lazy" />
+        <p class="diptych-caption">At home next to Aesop, Byredo, Le Labo.</p>
       </div>
     </div>
   </section>
 
-  <!-- PHILOSOPHY -->
+  <!-- ⑦ RITUAL — full-width ritual shot with text -->
+  <section id="ritual">
+    <div class="ritual-img-wrap">
+      <img src="assets/img-ritual.jpg" alt="ĒTHER — The ritual of opening" loading="lazy" class="ritual-bg-img" />
+      <div class="ritual-overlay"></div>
+    </div>
+    <div class="ritual-content">
+      <p class="section-label">004 — The Ritual</p>
+      <h2 class="ritual-title">Film yourself opening<br/>a bottle of nothing.</h2>
+      <p class="ritual-body">The hiss. The pause. The question on every viewer's face: <em>did they just—?</em><br/><br/>Yes. We did.</p>
+    </div>
+  </section>
+
+  <!-- ⑧ CARD DETAIL — macro close-up -->
+  <section id="card-detail">
+    <div class="card-detail-inner">
+      <div class="card-detail-img reveal-img">
+        <img src="assets/img-card.jpg" alt="ĒTHER — Cotton card, Collected at 4,200m" loading="lazy" />
+      </div>
+      <div class="card-detail-text">
+        <p class="section-label">Each bottle ships with</p>
+        <h2 class="card-detail-title">One card.<br/>One truth.</h2>
+        <p class="card-detail-body">"Collected at 4,200m<br/>Shangri-La, Yunnan, China"<br/><br/>Printed on 300gsm cotton paper. The weight of the card is intentional. Everything about this is intentional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑨ GALLERY — installation shot -->
+  <section id="gallery">
+    <img src="assets/img-gallery.jpg" alt="ĒTHER — Installation view" class="gallery-full reveal-img" loading="lazy" />
+    <p class="gallery-caption">The collection. Three sources. Three stories.</p>
+  </section>
+
+  <!-- ⑩ PHILOSOPHY -->
   <section id="philosophy">
-    <p class="section-label">003 — First Principles</p>
+    <p class="section-label">005 — First Principles</p>
     <div class="philosophy-statements">
       <div class="philosophy-statement">
         <span class="statement-index">I</span>
@@ -121,24 +188,9 @@
     </div>
   </section>
 
-  <!-- THE RITUAL -->
-  <section id="ritual">
-    <div class="ritual-content">
-      <p class="section-label">004 — The Ritual</p>
-      <h2 class="ritual-title">Film yourself opening<br/>a bottle of nothing.</h2>
-      <p class="ritual-body">The hiss. The pause. The question on every viewer's face: <em>did they just—?</em><br/><br/>Yes. We did.</p>
-      <div class="ritual-wave">
-        <svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" class="wave-svg">
-          <path class="wave-path" d="M 0 50 Q 50 20 100 50 Q 150 80 200 50 Q 250 20 300 50 Q 350 80 400 50 Q 450 20 500 50 Q 550 80 600 50 Q 650 20 700 50 Q 750 80 800 50" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
-          <path class="wave-path-active" d="M 0 50 Q 50 10 100 50 Q 150 90 200 50 Q 250 10 300 50 Q 350 90 400 50 Q 450 10 500 50 Q 550 90 600 50 Q 650 10 700 50 Q 750 90 800 50" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="1.5" stroke-dasharray="1600" stroke-dashoffset="1600"/>
-        </svg>
-      </div>
-    </div>
-  </section>
-
-  <!-- DROPS -->
+  <!-- ⑪ UPCOMING DROPS -->
   <section id="upcoming-drops">
-    <p class="section-label">005 — Limited Drops</p>
+    <p class="section-label">006 — Limited Drops</p>
     <div class="drops-grid">
       <div class="drop-item drop-item--active">
         <div class="drop-badge">Now</div>
@@ -158,10 +210,10 @@
     </div>
   </section>
 
-  <!-- THE DROP (Purchase) -->
+  <!-- ⑫ THE DROP (Purchase) -->
   <section id="drop">
     <div class="drop-content">
-      <p class="section-label">006 — The Drop</p>
+      <p class="section-label">007 — The Drop</p>
       <h2 class="drop-title">Own a bottle<br/>of nothing.</h2>
 
       <div class="pricing-options">
